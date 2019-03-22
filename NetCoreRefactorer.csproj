@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NetRefactorer.Core\NetRefactorer.Core\NetRefactorer.Core.csproj" />
+    <ProjectReference Include="..\ClassLibrary2\NetRefactorer.StringInterpolation.csproj" />
+  </ItemGroup>
+
+</Project>
